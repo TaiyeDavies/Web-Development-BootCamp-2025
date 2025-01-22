@@ -1,0 +1,66 @@
+/* *{
+     background-color: blue;
+} */
+
+h1,h2{
+    color: brown;
+}
+
+#search{
+   background-color:coral;
+}
+
+span{
+    color: #080808;
+    background-color: rgb(184, 122, 42);
+}
+
+.tags{
+    text-decoration: dashed underline #2b2b7d;
+    color: aliceblue;
+}
+.spanlinks a{
+    color: rgb(37, 75, 76);
+    background-color: rgb(176, 136, 86);
+    text-decoration: none;
+}
+li a{
+    color: red;
+}
+h2 + button{
+    background-color: rgb(146, 54, 54);
+}
+input[type = "password"]{
+    background-color: rgb(202, 105, 105);
+}
+section[class="spanlinks"]{
+    background-color: rgb(155, 109, 112)
+}
+a[href*="google"]{
+    font-size: 100px;
+}
+.spanlinks button:hover{
+    background-color: wheat;
+}
+.spanlinks a:hover{
+    text-decoration: blue wavy underline;
+    font-size: 70px;
+}
+.spanlinks:nth-of-type(3n){
+    background-color: teal;
+}
+h2::first-letter{
+    font-size: 60px;
+}
+#login, #signup{
+    background-color: rebeccapurple;
+}
+button{
+    width: 100px;
+    height: 100px;
+    background-color: magenta !important;
+}
+li > a{
+    color: inherit;
+}
+

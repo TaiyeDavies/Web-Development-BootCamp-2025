@@ -1,0 +1,19 @@
+h1{
+    border: 2px solid black;
+    background-color: aqua;
+}
+span{
+    border: 2px solid black;
+    background-color: rgb(99, 34, 164);
+    padding: 10px;
+    margin: 10px 20px;
+}
+div{
+width: 100px;
+height: 100px;
+padding: 50px;
+margin: 50px;
+background-color: olivedrab;
+border: 2px solid black;
+display: inline-block;
+}

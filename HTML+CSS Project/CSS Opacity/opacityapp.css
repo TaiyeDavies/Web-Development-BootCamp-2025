@@ -1,0 +1,27 @@
+#s1{
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(147, 56, 56, 0.5);
+}
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(22, 133, 28, 0.5);
+    opacity: 0.6;
+}
+#middle{
+    position: relative;
+    top: 100px;
+    /* display: inline-block; */
+}
+
+div{
+    background-color: rgba(58, 123, 32, 0.5);
+}
+

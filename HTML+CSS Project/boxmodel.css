@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+div{
+    width: 300px;
+    height: 300px;
+    background-color: blanchedalmond;
+}
+span{
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+}
+h1{
+    background-color: darkcyan;
+    width: 300px;
+    padding: 10px;
+}
+#hana{
+    background-color: chocolate;
+    border-width: 50px;
+    border-color: cadetblue;
+    border-style: groove;
+    /* box-sizing: border-box; */
+    padding: 10px 20px;
+}
+#dool{
+    background-color: cornflowerblue;
+    border-width: 30px;
+    border-color: rgb(74, 32, 93);
+    border-style: solid;
+    box-sizing: border-box;
+    border-right-color: black;
+}
+#set{
+background-color: crimson;
+border: 5px rgb(56, 125, 150) double;
+border-radius: 10% 20%; 
+margin: 30px 15px;
+}
