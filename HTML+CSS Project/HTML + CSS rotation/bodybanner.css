@@ -1,0 +1,16 @@
+body::before{
+    position: absolute;
+                width: min(1400px, 90vw);
+                top: 5%;
+                left: 100%;
+                height: 96%;
+                
+                transform: translateX(-50%);
+                content: '';
+                background-image: url(pawel-czerwinski-vjuSjU3Dfm0-unsplash.jpg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: top center;
+                pointer-events: none;
+    
+}

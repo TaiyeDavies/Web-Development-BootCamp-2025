@@ -1,0 +1,141 @@
+
+.banner{  
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .slider{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 10%;
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: autoRun 20s linear infinite;
+    z-index: 2;
+}
+
+@keyframes  autoRun{
+    from{
+        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+    }
+    to{
+        transform: perspective(1000px) rotateX(-16deg) rotateY(400deg);
+    }
+}
+.banner .slider .item{
+    position: absolute;
+    inset: 0 0 0 0;
+    transform:rotateY(calc((var(--position) - 1)* (360/ var(--quantity))* 1deg)) translateZ(100px);
+}
+.banner .slider .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner .content{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(1400px, 100vw);
+    height: max-content;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.banner .content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16em;
+    line-height: 1em;
+    color: rgb(214, 51, 168);
+    position: relative;
+}
+.banner .content h1::after{
+    position: absolute;
+    inset: 0 0 0 0;
+    content: attr(data-content);
+    z-index: 2;
+    -webkit-text-stroke: 2px #d2d;
+    color: transparent;
+}
+.banner .content .author{
+    font-family: 'Poppins', 'Lexend-Giga', sans-serif;
+    text-align: right;
+    max-width: 200px;
+    color: rgb(36, 28, 184);
+}
+.banner .content .author:hover{
+    transform: translateY(-30%);
+}
+.banner .content p{
+    font-family: 'Poppins', 'Lexend-Giga', sans-serif;
+    text-align: right;
+    max-width: 200px;
+    color: rgb(36, 28, 184);
+}
+.banner .content h2{
+    font-size: 3em;
+    color: rgb(36, 28, 184);
+}
+.banner .content .model{
+    background-image: url(fruit-basket-UdeDyN4K7S0-unsplash.jpg);
+    /* mask-image: url(pawan-thapa-li51tnwnC90-unsplash.jpg), radial-gradient(transparent 50%, rgb(255, 255, 255));; */
+    width: 55%;
+    height: 95%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-size: auto 130%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    z-index: 0;
+}
+
+/* .banner-two{  
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+} */
+
+.banner-two .slider{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 70%;
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: autoRun 20s linear infinite;
+    z-index: 2;
+}
+
+@keyframes  autoRun{
+    from{
+        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+    }
+    to{
+        transform: perspective(1000px) rotateX(-16deg) rotateY(400deg);
+    }
+}
+.banner-two .slider .item{
+    position: absolute;
+    inset: 0 0 0 0;
+    transform:rotateY(calc((var(--position) - 1)* (360/ var(--quantity))* 1deg)) translateZ(200px);
+}
+.banner-two .slider .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
