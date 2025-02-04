@@ -8,3 +8,8 @@ This is my journey to the world of web development where I become a master of th
 <b>HTML+CSS Project -> CSS PriceTableStarter</b>
 <img width="1434" alt="Screenshot 2025-01-31 at 2 34 55 PM" src="https://github.com/user-attachments/assets/71f1c4fb-1855-46fa-bda3-d4276eb4bce8" />
 
+<b>HTML+CSS+Bootstrap Project -> Museum_Starter</b>
+<img width="1433" alt="Screenshot 2025-02-04 at 12 54 29 AM" src="https://github.com/user-attachments/assets/286e086c-87c6-4cdd-887c-af8b270ffa1e" />
+
+
+
