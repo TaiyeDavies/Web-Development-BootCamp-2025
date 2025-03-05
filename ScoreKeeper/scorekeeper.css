@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background-color: azure;
+}
+
+img{
+    height: 40%;
+    width: 30%;
+    object-fit: cover;
+}
+
+/* .winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+} */
